@@ -1,0 +1,82 @@
+.root {
+    -fx-background-image: url('/images/img1.jpg');
+    -fx-background-size: cover;
+}
+
+
+/* Style général de l'application */
+.root {
+    -fx-font-family: 'Arial';
+    -fx-base: #FFFFFF;
+}
+
+/* Styles pour HBox */
+.hbox {
+    -fx-background-color: #336699;
+    -fx-padding: 15px;
+}
+
+/* Style pour le label */
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: white;
+}
+
+/* Style pour le TextField */
+.text-field {
+    -fx-prompt-text-fill: derive(-fx-control-inner-background, -30%);
+    -fx-max-width: 200px;
+}
+
+/* Style pour le Button */
+.button {
+    -fx-background-color: #88b8e6;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-weight: bold;
+}
+
+.button:hover {
+    -fx-background-color: #669de4;
+}
+
+/* Styles pour le ListView */
+.list-view {
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #CCC;
+    -fx-border-width: 1px;
+}
+
+.list-cell {
+    -fx-padding: 10px;
+    -fx-cursor: hand;
+}
+
+.list-cell:filled:even {
+    -fx-background-color: #F0F0F0;
+}
+
+.list-cell:filled:odd {
+    -fx-background-color: #E8E8E8;
+}
+
+.list-cell:filled:selected {
+    -fx-background-color: #009688;
+    -fx-text-fill: white;
+}
+
+#hbox1 {
+    -fx-pref-width: 900px;
+}
+
+.list-view-custom {
+    -fx-pref-width: 900px;
+}
+
+.list-cell:hover {
+    -fx-background-color: #f4f4f4;
+    -fx-text-fill: rgb(183, 183, 241); /* Change la couleur du texte au survol */
+}
+.list-cell:selected {
+    -fx-background-color: #dae7f3;
+    -fx-text-fill: navy; /* Change la couleur du texte des éléments sélectionnés */
+}

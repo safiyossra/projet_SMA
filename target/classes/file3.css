@@ -1,0 +1,25 @@
+/* Style général de l'arrière-plan de l'application */
+.root {
+    -fx-background-image: url('/images/img2.jpg');
+    -fx-background-size: cover;
+}
+
+/* Style de la zone de texte pour afficher les messages */
+.text-area {
+    -fx-control-inner-background: #ffffff; /* Couleur de fond */
+    -fx-text-fill: #000000; /* Couleur du texte */
+    -fx-highlight-fill: #c0b7b5; /* Couleur de surlignage */
+    -fx-highlight-text-fill: #000000; /* Couleur du texte surligné */
+    -fx-font-family: "Consolas"; /* Police de caractères */
+    -fx-font-size: 14px; /* Taille de la police */
+    -fx-border-color: #cccccc; /* Couleur de la bordure */
+    -fx-border-width: 2px; /* Largeur de la bordure */
+}
+
+/* Style de l'espacement entre les éléments dans le VBox */
+.vbox {
+    -fx-min-width: 100px; /* Largeur minimale */
+    -fx-max-width: 800px; /* Largeur maximale */
+    -fx-pref-width: 100%; /* La largeur préférée est de 100% de son conteneur */
+}
+

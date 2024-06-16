@@ -1,0 +1,25 @@
+.root {
+    -fx-background-image: url('/images/th1.jpg');
+    -fx-background-size: cover;
+}
+
+
+/* Styliser les cellules de la ListView */
+.list-cell {
+    -fx-padding: 10px;
+    -fx-border-color: transparent transparent #eeeeee transparent;
+    -fx-background-color: white;
+    -fx-text-fill: rgb(139, 127, 107); /* Définit la couleur du texte des cellules */
+}
+
+/* Styliser les cellules lorsqu'elles sont survolées avec la souris */
+.list-cell:hover {
+    -fx-background-color: #f4f4f4;
+    -fx-text-fill: darkblue; /* Change la couleur du texte au survol */
+}
+
+/* Styliser les cellules lorsqu'elles sont sélectionnées */
+.list-cell:selected {
+    -fx-background-color: #dae7f3;
+    -fx-text-fill: navy; /* Change la couleur du texte des éléments sélectionnés */
+}
